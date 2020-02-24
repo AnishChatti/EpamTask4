@@ -13,7 +13,7 @@ return simpleInterest/100;
 double compoundInterest()
 {
 	double compoundInterest=principle*(float)Math.pow(1+rate/100,time);
-	return compoundInterest;
+	return compoundInterest-principle;
 }
 Business(Database data)
 {principle=data.principleAmount;
